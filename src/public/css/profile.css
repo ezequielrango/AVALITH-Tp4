@@ -1,0 +1,175 @@
+body {
+       background: linear-gradient(90deg, rgb(34, 36, 32) 0%, rgb(42, 44, 41) 50%);
+       font-family: "Consolas", sans-serif;
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+       height: 100vh;
+      
+       
+}
+
+.container2 {
+       height: 600px;
+       width: 800px;
+       font-family: "Consolas", sans-serif;
+       text-align:center;
+       justify-content: space-between;
+       position: relative;
+       top: -710px;
+       left: 40%;
+       border: 1px solid rgb(141, 10, 10);
+}
+
+.card {
+
+       background-color: rgb(192, 21, 21);
+       width: 380px;
+       border: 3px solid rgb(216, 0, 0);
+       border-radius: 15px;
+       padding: 8px;
+       position: relative;
+       height: 370px;
+       top: -150px;
+       left: -35%;
+}
+
+.upper {
+
+       height: 100px;
+
+}
+
+.upper img {
+
+       width: 100%;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+
+}
+
+.user {
+       font-family: "Consolas", sans-serif;
+       position:relative;
+       
+}
+
+.profile img {
+       height: 80px;
+       width: 80px;
+       margin-top: 2px;
+}
+
+.profile {
+       font-family: "Consolas", sans-serif;
+       position: absolute;
+       top: -50px;
+       left: 38%;
+       height: 90px;
+       width: 90px;
+       border: 3px solid rgb(0, 0, 0);
+       border-radius: 50%;
+
+}
+
+.follow {
+
+       border-radius: 15px;
+       padding-left: 20px;
+       padding-right: 20px;
+       height: 35px;
+}
+
+.stats span {
+
+       font-size: 29px;
+}
+
+* {
+       box-sizing: border-box;
+     }
+   
+     .openBtn {
+       display: flex;
+       justify-content: left;
+     }
+   
+     .openButton {
+       border: none;
+       border-radius: 5px;
+       background-color: #1c87c9;
+       color: white;
+       padding: 14px 20px;
+       cursor: pointer;
+       position: fixed;
+     }
+   
+     .loginPopup {
+       position: relative;
+       text-align: center;
+       width: 100%;
+     }
+   
+     .formPopup {
+       display: none;
+       position: fixed;
+       left: 50%;
+       top: 5%;
+       transform: translate(-50%, 5%);
+       border: 3px solid #999999;
+       z-index: 9;
+     }
+   
+     .formContainer {
+       font-family: "Consolas", sans-serif;
+       max-width: 300px;
+       padding: 20px;
+       background-color: #fff;
+     }
+   
+     .formContainer input[type=text],
+     .formContainer input[type=password] {
+       font-family: "Consolas", sans-serif;
+       outline: 0;
+       background: #f2f2f2;
+       width: 100%;
+       border: 0;
+       margin: 0 0 15px;
+       padding: 15px;
+       box-sizing: border-box;
+       font-size: 14px;
+     }
+   
+     .formContainer input[type=text]:focus,
+     .formContainer input[type=password]:focus {
+       background-color: #ddd;
+       outline: none;
+     }
+   
+     .formContainer .btn {
+       font-family: "Consolas", sans-serif;
+       text-transform: uppercase;
+       outline: 0;
+       background: darkslategrey;
+       width: 100%;
+       border: 0;
+       padding: 15px;
+       color: #FFFFFF;
+       font-size: 14px;
+       -webkit-transition: all 0.3 ease;
+       transition: all 0.3 ease;
+       cursor: pointer;
+       border-radius: 0px;
+     }
+   
+     .formContainer .cancel {
+       background-color: #cc0000;
+     }
+   
+     .formContainer .btn:hover,
+     .openButton:hover {
+       color: #cc0000;
+       opacity: 1;
+     }
